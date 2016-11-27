@@ -23,6 +23,7 @@
     "fs-extra": "^0.30.0",
     "mkdirp": "*",
     "mongodb": "^2.2.7",
+    "node-dir": "^0.1.16",
     "qs": "^6.2.1",
     "request": "2.74.0",
     "scrubber": "*",
