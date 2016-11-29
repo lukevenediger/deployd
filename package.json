@@ -20,14 +20,12 @@
     "doh": "^0.0.4",
     "ejs": "^2.5.1",
     "filed": "^0.1.0",
-    "fs-extra": "^0.30.0",
-    "mkdirp": "*",
     "mongodb": "^2.2.7",
-    "node-dir": "^0.1.16",
     "qs": "^6.2.1",
     "request": "2.74.0",
     "scrubber": "*",
     "send": "^0.14.1",
+    "shelljs": "^0.7.3",
     "socket.io": "^1.4.8",
     "underscore": "^1.8.3",
     "validation": "*"
@@ -40,8 +38,7 @@
     "mocha-jshint": "2.3.1",
     "mocha-phantomjs": "^4.1.0",
     "rewire": "~2.5.2",
-    "sinon": "~1.17.5",
-    "shelljs": "^0.7.3"
+    "sinon": "~1.17.5"
   },
   "scripts": {
     "pretest": "npm link && cd test-app && npm link deployd && npm install",
